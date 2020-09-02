@@ -74,7 +74,7 @@
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
 
-        <div class="col-md-12 col-sm-12 w-100" style="width: 150%; padding-top: 0.4%">
+        <div class="container padding-top: 0.4%">
             <div class="badge-success navbar-light sticky-bottom" style="margin-bottom: 0; bottom: 0; position: sticky; background-color: darkgreen; padding-top: 1%">
                 <div class="col-md-12 col-sm-10 row" style="height: 50%; padding-left:3%; padding-right: 3%">
                     <div class="col order-1">
