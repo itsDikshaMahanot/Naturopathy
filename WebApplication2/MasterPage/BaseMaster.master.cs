@@ -17,12 +17,12 @@ namespace WebApplication2.MasterPage
 
         protected void Button1_Click1(object sender, EventArgs e)
         {
-            Response.Redirect("Service.aspx");
+            Response.Redirect("services.aspx");
         }
 
         protected void button2_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Aboutus.aspx");
+            Response.Redirect("about_us.aspx");
         }
     }
 }

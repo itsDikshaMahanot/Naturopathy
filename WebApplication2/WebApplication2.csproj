@@ -146,6 +146,7 @@
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="pages\about_us.aspx" />
     <Content Include="pages\services.aspx" />
+    <Content Include="pages\WebForm1.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -178,6 +179,7 @@
     <Content Include="styles\bootstrap-social.css" />
     <Content Include="styles\bootstrap.css" />
     <Content Include="styles\bootstrap.min.css" />
+    <Content Include="styles\flip.css" />
     <Content Include="styles\w3.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -204,6 +206,13 @@
     </Compile>
     <Compile Include="pages\services.aspx.designer.cs">
       <DependentUpon>services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

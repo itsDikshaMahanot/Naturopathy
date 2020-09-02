@@ -4,9 +4,11 @@
     <link rel="stylesheet" href="../styles/w3.css" />
     <link rel="stylesheet" href="../styles/bootstrap.css" />
     <link rel="stylesheet" href="../styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="../styles/flip.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono" />
 
-    <style>
+     <style>
         #header {
             background-color:lemonchiffon;
             width: 100%;
@@ -42,24 +44,17 @@
             <li>Skin Problems</li>
         </ul>
     </div>
+        
         <div class="row row-cols-1 row-cols-md-3" style="padding-top:1%">
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="../images/fastingtherapy.jpg" class="card-img-top" alt="Fasting Therapy">
-                    <div class="card-body">
-                        <h3 class="card-title">Fasting Therapy</h3>
-                        <p class="card-text" style="text-align:justify">
-                            Fasting is an important treatment modality for health preservation. 
-                            It is primarily the act of willingly abstaining from some or all food, drink, or both, for a period of time. 
-                            The word is derived from the old English WORD, ‘ Feastan’ means to ‘fast’, ‘observe’, ‘be strict’.
-                            In Sanskrit it means ‘Upavasa’ [abstinence from all sensual gratification].
-                            A fast may be total or partial , and may be prolonged or intermittent as to the period of fasting.
-                            Mental preparedness is an essential pre-condition. 
-                            Prolonged fasting should be done only under the supervision of a competent Naturopath.                           
-                        </p>
-                    </div>
-                </div>
+           <div class="flip">
+            <div class="front" style="background-image: url(../images/magnetictherapy.jpg)">
+                <h1 class="text-shadow">MOUNTAIN</h1>
             </div>
+            <div class="back">
+                <h2>Angular</h2>
+                <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
+            </div>
+        </div>
             <div class="col mb-4">
                 <div class="card h-100">
                     <img src="../images/magnetictherapy.jpg" class="card-img-top" alt="Magnetic" style="height:44%;">
