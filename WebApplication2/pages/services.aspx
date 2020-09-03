@@ -45,106 +45,109 @@
         </ul>
     </div>
         
-        <div class="row row-cols-1 row-cols-md-3" style="padding-top:1%">
-           <div class="flip">
-            <div class="front" style="background-image: url(../images/magnetictherapy.jpg)">
-                <h1 class="text-shadow">MOUNTAIN</h1>
-            </div>
-            <div class="back">
-                <h2>Angular</h2>
-                <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
-            </div>
-        </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="../images/magnetictherapy.jpg" class="card-img-top" alt="Magnetic" style="height:44%;">
-                    <div class="card-body">
-                        <h3 class="card-title">Magnetic Therapy</h3>
-                        <p class="card-text" style="text-align:justify">
-                            The use of magnets and its properties for therapeutic healing is called magnetotherapy.<br />
-                            • Magnets might change how the cells function (reduced ability to transmit impulses).<br />
-                            • Static magnets might increase blood flow. <br />
-                            • Weak pulsed electromagnets might affect how nerve cells respond to pain (increase in pain threshold).<br />
-                            • Pulsed electromagnets might change the brain’s perception of pain (increase in serotonin receptors). <br />
-                            Supporting Studies:<br />
-                            • Magnet therapy in case of abdominal wound worked successfully where other approaches have failed.<br /> 
-                            • Significant pain reduction was seen after 24 hours in 54 patients with either chronic back or knee pain.<br />
-                        </p>
-                    </div>
+        <div class=" " style="padding-left:5%; padding-top:1%">
+            <div class="flip">
+                <div class="front" style="background-image: url(../images/aromatherapy.jpg);  height:300px">
+                    <h1 class="text-shadow" style="padding-top:60%">Aroma Therapy</h1>
+                </div>
+                <div class="back" style=" height:300px">
+                    <h2>Aroma Therapy</h2>
+                    <p>Our Aromatherapy massage is particularly suited to conditions involving stress or emotionally-related conditions.
+                       Our special blend of essential oils are the concentrated essences taken from the flowers, fruit, seeds, leaves and bark of certain plants.
+                       Aromatherapy massage boosts well-being, relieves stress and helps to refresh your body and provides therapeutic benefits.
+                    </p>
                 </div>
             </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="../images/aromatherapy.jpg" class="card-img-top" alt="Aroma Therapy" style="height:44%">
-                    <div class="card-body">
-                        <h3 class="card-title">Aromatherapy massage</h3>
-                        <p class="card-text" style="text-align:justify">
-                            Our Aromatherapy massage is particularly suited to conditions involving stress 
-                          or emotionally-related conditions. Our special blend of essential oils are the concentrated essences
-                          taken from the flowers, fruit, seeds, leaves and bark of certain plants. 
-                          Aromatherapy massage boosts well-being, relieves stress and helps to refresh your body and provides therapeutic benefits.
-                        </p>
-                    </div>
+            <div class="flip">
+                <div class="front" style="background-image: url(../images/magnetictherapy.jpg);  height:300px">
+                    <h1 class="text-shadow" style="padding-top:60%">Magnetic Therapy</h1>
+                </div>
+                <div class="back" style=" height:300px">
+                    <h2>Magnetic Therapy</h2>
+                    <p>
+                        Massage therapy is manually manipulation of soft tissues for enhance of health.<br />
+                        • It accelerates the circulation and draws the blood into the surface.<br />
+                        • Relaxes and opens the pores of the skin.<br />
+                        • Promotes the elimination of morbid matter.<br />
+                        • Massage therapy has recently received empirical support for facilitating growth, reducing pain, increasing alertness, diminishing depression, and enhancing immune function.
+                        <br />
+                    </p>
                 </div>
             </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="../images/mudtherapy.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h3 class="card-title">Mud Therapy</h3>
-                        <p class="card-text" style="text-align:justify">
-                            It is a system  of treatment in which mud is applied either partially or completely over the body to get the desired therapeutic effect. 
-                            Mud is one of five elements of nature having immense impact on the body both in health and sickness.<br />
-                            Based on mode of application:<br />
-                            •  Direct (on the skin)<br />
-                            •  Indirect (as packs)<br />
-                            Supporting Studies :<br />
-                            •  Mud therapy effective in OA knees (pain and functional status)
-                        </p>
-                    </div>
+            <div class="flip">
+                <div class="front" style="background-image: url(../images/fastingtherapy.jpg); height: 300px">
+                    <h1 class="text-shadow" style="padding-top:60%">Fasting Therapy</h1>
+                </div>
+                <div class="back" style="height: 300px">
+                    <h2>Fasting Therapy</h2>
+                    <p>
+                        Fasting is an important treatment modality for health preservation.
+                        It is primarily the act of willingly abstaining from some or all food, drink, or both, for a period of time.<                        In Sanskrit it means ‘Upavasa’.
+                        Mental preparedness is an essential pre-condition. 
+                        Prolonged fasting should be done only under the supervision of a competent Naturopath.
+                        It has benefits on biological pathways that directly affect metabolism and potentially longevity.
+                       
+                    </p>
                 </div>
             </div>
-             <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="../images/steam.jpg" class="card-img-top" alt="HydroTherapy" style="height:32%">
-                    <div class="card-body">
-                        <h3 class="card-title">Hydro Therapy</h3>
-                        <p class="card-text" style="text-align:justify">
-                            Hydrotherapy is the external or internal use of water in any of its forms (water, ice, steam) for health promotion or treatment of various diseases with various temperatures, pressure, duration, and site.
-                            Treatment with water as the main modality.
-                           <h4>Physiological mechanism involves:</h4> 
-                            •  Vasodilation and vasoconstriction<br />
-                            •  Changes in blood flow and associated metabolic functions.<br />
-                            •  Thermoregulation.<br />
-                           <h4> Supporting Studies:</h4>
-                            •  Hydrotherapy patients showed significantly greater improvement in joint tenderness and in knee range of movement (women only).
-                               At follow up, hydrotherapy patients maintained the improvement in emotional and psychological state.<br />
-                            •  The balance of high to moderate quality evidence supported benefit from hydrotherapy in pain, 
-                               function, self-efficacy and affect, joint mobility, strength, and balance, particularly among older
-                               adults, subjects with rheumatic conditions and chronic low back pain.
-                        </p>
-                    </div>
+            <div class="flip">
+                <div class="front" style="background-image: url(../images/mudtherapy.jpg)">
+                    <h1 class="text-shadow" style="padding-top:60%">Mud Therapy</h1>
                 </div>
-             </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <img src="../images/Hip-Bath.jpg" class="card-img-top" alt="hip bath" style="height: 32%">
-                    <div class="card-body">
-                        <h3 class="card-title">Hip Bath</h3>
-                        <p class="card-text" style="text-align: justify">
-                            Hip bath is one of the most useful forms of hydrotherapy. A special type of tub is used for the purpose. 
-                             The tub is filled with water in such a way that it covers the hips and reaches up to the navel when the patient sits in it.
-                        </p>
-                        <h3 style="padding-left: 1%">Benefits:</h3>
-                        <ul style="font-size: medium">
-                            <li>Relieves constipation & indigestion.</li>
-                            <li>Obesity</li>
-                            <li>Helps the eliminative organs to function properly.</li>
-                            <li>Helpful in menstrual problems like irregular menstruation, premenstrual and post menopausal problems.</li>
-                            <li>Piles</li>
-                            <li>Enlarged prostate gland, seminal weakness, impotency, sterility.</li>
-                        </ul>
-                    </div>
+                <div class="back">
+                    <h2>Mud Therapy</h2>
+                    <p>
+                        It is a system  of treatment in which mud is applied either partially or completely over the body to get the desired therapeutic effect. Mud is one of five elements of nature having immense impact on the body both in health and sickness.
+                        <br />
+                        Based on mode of application:<br />
+                        • Direct (on the skin)<br />
+                        • Indirect (as packs)
+                    </p>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="front" style="background-image: url(../images/massagetherapy.jpg)">
+                    <h1 class="text-shadow" style="padding-top:60%">Massage Therapy</h1>
+                </div>
+                <div class="back">
+                    <h2>Massage Therapy</h2>
+                    <p>
+                        Massage therapy is manually manipulation of soft tissues for enhance of health.<br />
+                        • It accelerates the circulation and draws the blood into the surface.<br />
+                        • Relaxes and opens the pores of the skin.<br />
+                        • Promotes the elimination of morbid matter.<br />
+                    </p>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="front" style="background-image: url(../images/steam.jpg)">
+                    <h1 class="text-shadow" style="padding-top:60%">Hydro Therapy</h1>
+                </div>
+                <div class="back">
+                    <h2>Hydro Therapy</h2>
+                    <p>
+                        Hydrotherapy is the external or internal use of water in any of its forms (water, ice, steam) for health promotion or treatment of various diseases with various temperatures, pressure, duration, and site, Treatment with water as the main modality.
+                    <br />
+                        Physiological mechanism involves:<br />
+                        • Vasodilation and vasoconstriction<br />
+                        • Changes in blood flow and associated metabolic functions<br />
+                        • Thermoregulation
+                    </p>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="front" style="background-image: url(../images/diettherapy.jpeg)">
+                    <h1 class="text-shadow" style="padding-top:60%">Diet Therapy</h1>
+                </div>
+                <div class="back">
+                    <h2>Diet Therapy</h2>
+                    <p>
+                        Natural diet is a diet containing all the essential elements, which is capable of carrying out all functions of the body and which is in harmony with nature’s law.
+                        Most of the treatments in the system consists of cleansing the system.<br />
+                        • Eliminative diet: Function is to eliminate toxins and to purify blood.<br />
+                        • Smoothening diet: For normalization of the body post elimination.<br />
+                        • Constructive diet: Aims at repair and healing of the body in various aspects for maintaining optimal health.
+                    </p>
                 </div>
             </div>
         </div>

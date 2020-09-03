@@ -47,8 +47,8 @@
         <nav class="navbar navbar-inverse navbar-expand-sm sticky-top" style="background-color: darkgreen">
             <div class="container col-md-12 col-sm-12">
                 <div class="navbar-header">
-                    <img class="logo navbar-brand shadowlogo" src="../images/logo1.png" style="width: 5%; height: 5%; padding: 0.5%;" />
-                    <a class="col-md-10 col-sm-12" style="color: #FFFFFF; font-size: x-large; font-family:Cooper; font-weight: bold;"> Ayushman Naturopathy Center </a>
+                    <img class="logo navbar-brand shadowlogo" src="../images/logo1.png" style="width:5%; height:4%; padding:0.5%;" />
+                    <i class="col-md-10 col-sm-12" style="color: #FFFFFF; font-size: xx-large; font-family:'Times New Roman', Times, serif; font-weight:bolder;"> Ayushman Naturopathy Center </i>
                 </div>
                 <%-- Header button --%>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
