@@ -2,6 +2,8 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" href="../styles/w3.css" />
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../styles/bootstrap.css" />
     <link rel="stylesheet" href="../styles/bootstrap.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -18,7 +20,7 @@
             height: 600px;
         }
         #header {
-            background-color:lemonchiffon;
+            background-color:floralwhite;
             width: 100%;
             height: auto;
             background-size: cover;     
@@ -26,7 +28,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div  class="container col-md-12 col-sm-12" style="background-color: lemonchiffon; padding: 0.5%;">
+    <div  class="container col-md-12 col-sm-12" style="background-color:floralwhite; padding: 0.5%;">
         <div id="carouselExampleIndicators" class="carousel slide col-md-12 col-sm-12" data-ride="carousel" style="padding:2%">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -103,6 +105,7 @@
 
         </div>
     </div>
-
+    <%--https://docs.google.com/forms/d/e/1FAIpQLSdgbU-TcgCsCkpwzeOzgDYd6XngeNNvcI94c7-T02aFT1uYQw/viewform?vc=0&c=0&w=1&flr=0--%>
+    <%--to check the response in excel sheet--%>
 
 </asp:Content>
