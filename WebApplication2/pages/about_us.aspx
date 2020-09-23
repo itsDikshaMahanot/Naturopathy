@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link rel="stylesheet" href="../styles/w3.css" />
     <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="../styles/bootstrap.css" />
     <link rel="stylesheet" href="../styles/bootstrap.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -19,17 +19,18 @@
             width: 140px;
             height: 600px;
         }
+
         #header {
-            background-color:floralwhite;
+            background-color: floralwhite;
             width: 100%;
             height: auto;
-            background-size: cover;     
-              }
+            background-size: cover;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div  class="container col-md-12 col-sm-12" style="background-color:floralwhite; padding: 0.5%;">
-        <div id="carouselExampleIndicators" class="carousel slide col-md-12 col-sm-12" data-ride="carousel" style="padding:2%">
+    <div class="container col-md-12 col-sm-12" style="background-color: floralwhite; padding: 0.5%;">
+        <div id="carouselExampleIndicators" class="carousel slide col-md-12 col-sm-12" data-ride="carousel" style="padding: 2%">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -37,10 +38,10 @@
             </ol>
             <div class="carousel-inner carousel">
                 <div class="carousel-item active">
-                    <img src="../images/Naturopath-service-1.jpg"  class=" w-100 d-block image">
+                    <img src="../images/Naturopath-service-1.jpg" class=" w-100 d-block image">
                 </div>
                 <div class="carousel-item">
-                    <img src="../images/diettherapy.jpeg"  class=" w-100 d-block image">
+                    <img src="../images/diettherapy.jpeg" class=" w-100 d-block image">
                 </div>
                 <div class="carousel-item">
                     <img src="../images/realx.jpg" class=" w-100 d-block image">
@@ -93,7 +94,7 @@
                 </p>
             </div>
         </div>
-      
+
         <div class="container col-md-11 col-sm-11 card" style="padding-bottom: 1%">
             <div class="row ">
                 <img src="../images/facial.jpg" class="col-4 order-first rounded" draggable="false" style="padding: 2%; width: 5%; height: 10%" title="Facial" role="img" alt="Facial" />
@@ -101,11 +102,9 @@
                 <img src="../images/massage.jpg" class="col-4 order-last rounded-0" draggable="false" style="padding: 2%; width: 2%; height: 5%" title="Massage" role="img" alt="Massage" />
             </div>
         </div>
-        <div class="container" style="padding:1%">
-
+        <div class="container" style="padding: 1%">
         </div>
     </div>
     <%--https://docs.google.com/forms/d/e/1FAIpQLSdgbU-TcgCsCkpwzeOzgDYd6XngeNNvcI94c7-T02aFT1uYQw/viewform?vc=0&c=0&w=1&flr=0--%>
     <%--to check the response in excel sheet--%>
-
 </asp:Content>

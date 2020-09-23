@@ -157,6 +157,7 @@
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\Multicarousel.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
     <Content Include="Scripts\WebForms\GridView.js" />
@@ -184,6 +185,7 @@
     <Content Include="styles\bootstrap.min.css" />
     <Content Include="styles\card.css" />
     <Content Include="styles\flip.css" />
+    <Content Include="styles\multicarousel.css" />
     <Content Include="styles\w3.css" />
     <Content Include="Web.config" />
   </ItemGroup>
