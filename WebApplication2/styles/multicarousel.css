@@ -25,4 +25,10 @@ body .no-padding {
     padding-left: 0;
     padding-right: 0;
     margin:10px 110px;
+   
+}
+
+img .size{
+    width:900px;
+    height:599px;
 }
