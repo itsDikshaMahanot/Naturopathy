@@ -1,10 +1,7 @@
 ﻿.videocontent {
     position: relative;
-    height:100%;
-    width: 110%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+   
 }
 
 
@@ -17,13 +14,26 @@
         right: 0px;
         bottom: 0px;
         left: 0px;
-        opacity: 0.75;
+        opacity: 0.75;       
     }
 
-.pp {
-    position: relative;
-    color: black;
-    font-size: 300%;
+
+
+.pp
+{
+    color:white;
     text-align: center;
-    padding-right:2%;
+    background-color: black;
+    opacity:0.55;
+    margin:5px 0;
+   
+}
+
+h1{
+    font-size:40% ;
+}
+
+
+.embeded-responsive{
+    width:80%;
 }

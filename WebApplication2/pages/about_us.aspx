@@ -31,19 +31,16 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container col-md-12 col-sm-12" style="background-color: floralwhite; padding: 0.5%;">
-        <div class="videocontent row" style="">
-            <p class="pp">
-                WELCOME TO NATURE
-                <br />
-                <%-- <video width="320" height="240" controls autoplay>
-                    <source src="entrance.mp4" type="video/mp4"> 
-                     Your browser does not support the video tag.
-                </video>--%>
-                <div class="embed-responsive embed-responsive-16by9 col-sm-12 col-md-5">
-                    <iframe class="embed-responsive-item" src="../images/entrance.mp4" style="padding:2%; padding-right:2%;"></iframe>
+    <div class="container col-md-12 col-sm-12" style="background-color: floralwhite; padding: 0.2%;">
+        <div class="row" style="max-height: 50%;">
+            <div class="videocontent" style="width: 100%; padding-left: 5%; padding-right: 5%;">
+                <div class="col-md-12 row">
+                    <h1 class="col-md-4" style="font-size: 250%; padding: 1%; margin: 10% 3%; text-align: center; text-decoration: solid; font-weight: 500">Welcome<br />
+                        to<br />
+                        Naturopathy Center</h1>
+                    <iframe class="col-md-6" style="background-color: black; opacity: 0.75; padding: 1%; align-items: center; margin: 20px 20px" src="../images/entrance.mp4"></iframe>
                 </div>
-
+            </div>
         </div>
         <%--        <div id="carouselExampleIndicators" class="carousel slide col-md-12 col-sm-12" data-ride="carousel" style="padding: 2%">
             <ol class="carousel-indicators">
@@ -71,7 +68,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>--%>
-        <div class="container col-md-12 col-sm-12" style="padding: 2%;">
+        <div class="container col-md-12 col-sm-12" style="margin: 2% 0">
             <h2>
                 <center> About Naturopathy </center>
             </h2>
