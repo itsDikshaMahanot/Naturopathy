@@ -17,11 +17,7 @@
 
 
     <style>
-        .carousel .image {
-            width: 140px;
-            height: 600px;
-        }
-
+        
         #header {
             background-color: floralwhite;
             width: 100%;
@@ -35,10 +31,14 @@
         <div class="row" style="max-height: 50%;">
             <div class="videocontent" style="width: 100%; padding-left: 5%; padding-right: 5%;">
                 <div class="col-md-12 row">
-                    <h1 class="col-md-4" style="font-size: 250%; padding: 1%; margin: 10% 3%; text-align: center; text-decoration: solid; font-weight: 500">Welcome<br />
-                        to<br />
-                        Naturopathy Center</h1>
-                    <iframe class="col-md-6" style="background-color: black; opacity: 0.75; padding: 1%; align-items: center; margin: 20px 20px" src="../images/entrance.mp4"></iframe>
+                    <div class="col-md-4" style="font-family: Britannic; padding: 1%; margin: 10% 3%; text-align: center; text-decoration: solid;">
+                        <p style="font-size: 290%">
+                            Welcome to<br />
+                            Naturopathy Center<br />
+                        </p>
+                        <a href="diet.aspx" style="font-size: 200%; color: darkgreen; opacity: 0.70; border: solid; border-radius: 45px; padding-block: 3%; padding-inline: 5%; border-color: black;">Go to Form</a>
+                    </div>
+                    <iframe class="col-md-6" style="padding: 0%; align-items: center; border: 1px solid #000; -moz-border-radius: 15px; border-radius: 25px" src="../images/entrance.mp4"></iframe>
                 </div>
             </div>
         </div>
@@ -69,11 +69,10 @@
             </a>
         </div>--%>
         <div class="container col-md-12 col-sm-12" style="margin: 2% 0">
-            <h2>
-                <center> About Naturopathy </center>
+            <h2 style="text-align: center; padding-bottom: 1%; padding-top: 1%; font-family: 'Baskerville Old Face'; font-size: 280%">About Naturopathy 
             </h2>
-            <div class="row" style="padding-top: 1%">
-                <p class="col" style="text-align: justify;">
+            <div class="container" style="border: 2px solid #98FB98; -moz-border-radius: 15px; border-radius: 30px">
+                <p class="col" style="text-align: justify; padding: 2%">
                     Naturopathy is a form of alternative medicine. 
                     It is based on the belief that a special energy called "vital energy" guides bodily functions such as metabolism, 
                     reproduction and growth.Naturopaths mostly use holistic forms of treatment. 
@@ -84,99 +83,105 @@
                     and balancing the body so that illness is less likely to occur in the future.
                     A range of therapies are used to support the person.
                 </p>
-                <p class="col order-1" style="text-align: justify;">
-                    The core principle of a naturopathic treatment protocol is ‘healing through nature’ so treatment will focus on supporting the body’s innate self healing abilities to overcome any health complaints and regain optimal well being. 
-                    Naturopathy is both an art and a science using a unique combination of both to treat the person.
-                    Naturopathy means ‘natural cure’.
-                    By using a combination of healthy diet, simple self help techniques, beneficial herbs and general exercise, naturopathy seeks to promote the body’s own ability to heal itself.
-                    Naturopathic medicine is a science based tradition that promotes wellness by identifying the unique aspects of each patient and then employing non-toxic natural therapies to restore his or her psychological and structural balance.                    
-                </p>
+            </div>
+        </div>
+        <div class="container" style="">
+            <div class="row" style="padding: 2%">
+                <img src="../images/mvv.png" class="col-sm-5 col-md-4 " alt="MVV" style="background-color: #F8F8FF; border-radius: 20%; padding-block: 2%; padding-inline: 5%" />
+                <div class="col-sm-6 col-md-7 row" style="padding-left: 12%; padding-top: 4%;">
+                    <h3 style="font-family: Broadway; color: deepskyblue">MISSION </h3>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp
+                    <h3 style="font-family: Broadway; color: mediumvioletred">VISSION </h3>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <h3 style="font-family: Broadway; color: yellowgreen">GOAL</h3>
+                    <p style="text-align: justify; font-size: medium;">
+                        Our vision is to encourage people to follow a natural way of life and to help them activate their innate ability to fight diseases without drugs
+                       ,so that they do not suffer from preventable diseases.
+                        Cure All The Diseases without any medicines and without any side effect.
+                        Make the medicines free life.
+                        Make the healthy life permenantly.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
-    <div id="header">
-        <div class="container" style="background-color: #d9fdd3; width: 90%;">
-            <div class="row" style="padding: 1%">
-                <img src="../images/SonalChopra.jpg" class="col-sm-5 col-md-2 " alt="Accupressure" style="margin-left: 15%; border-radius: 100%; border: groove; border-block: dimgray" />
-                <div class="col-sm-6 col-md-6" style="margin-left: 2%;">
-                    <h3>Dr Sonal Chopra</h3>
-                    <p style="text-align: justify; font-size: medium;">
-                        Dr. Sonal Chopra is a well experienced naturopath, acupressurist and dietitian. She has an overall experience of 5 years.
-                     Currently, she is managing a Naturopathy center in Jaipur city and also providing online perfect diet plan,
-                     according to Vat, Pitta and Kapha of individual body.
+    <div id="header" style="padding-top: 5%">
+        <div class="col-md-12" style="width: 85%; margin-left:7%; border: solid; border-width: medium; border-color: chocolate; border-radius: 10%;">
+            <div class="row" style="">
+                <div class="col-sm-6 col-md-7" style="margin-top: 4%">
+                    <h3 style="text-align: center; font-family:Algerian">Dr Sonal Chopra</h3>
+                    <p style="text-align: justify; font-size: 130%; padding-top: 2%; font-family:Century; padding-left:8%; padding-bottom:5%">
+                        Dr. Sonal Chopra is a self-made well experienced naturopath, acupressurist and dietitian. She has an overall experience of 5 years.
+                        Currently, she is managing a Naturopathy center in Jaipur city and also providing online perfect diet plan,
+                        according to Vat, Pitta and Kapha of individual body.                   
                     </p>
                 </div>
-                <%-- <div class="col-5 col-md-8 order-last" style="padding:2%; font-style: normal; font-family: Georgia">
-                <h3>ACCUPRESSURE</h3>
-                <p style="text-align: justify; font-size: medium;">
-                    Acupressure philosophy and acupoint stimulation is based on the same principles as Acupuncture. 
-                By using pressure, electric stimulation or laser light instead of needles,it works to stimulate specific reflex points located along the lines of energy which run through the body, 
-                called meridians.
-                </p>
-            </div>--%>
-            </div>
-        </div>
-
-        <div id="demo" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-                <li data-target="#demo" data-slide-to="0" class="active"></li>
-                <li data-target="#demo" data-slide-to="1"></li>
-                <li data-target="#demo" data-slide-to="2"></li>
-            </ul>
-            <!-- The slideshow -->
-            <div class="container carousel-inner no-padding" style="margin: 10px 110px">
-                <div class="carousel-item active">
-                    <div class="col-xs-3 col-sm-3 col-md-3">
-                        <img class="size" src="../images/aromatherapy.jpg">
-                    </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3">
-                        <img class="size" src="../images/relax1.jpg">
-                    </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3">
-                        <img class="size" src="../images/facial.jpg">
-                    </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3">
-                        <img class="size" src="../images/massage.jpg">
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-xs-3 col-sm-3 col-md-3">
-                        <img class="size" src="../images/hangingbowl.jpg">
-                    </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3">
-                        <img class="size" src="../images/medicine.jpg">
-                    </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3">
-                        <img class="size" src="../images/IMG_20200919_205119.jpg">
-                    </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3">
-                        <img class="size" src="../images/IMG_20200919_205639.jpg" />
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-xs-3 col-sm-3 col-md-3">
-                        <img class="size" src="../images/IMG_20200919_215540.jpg" />
-                    </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3">
-                        <img class="size" src="../images/IMG_20200919_220233.jpg">
-                    </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3">
-                        <img class="size" src="../images/IMG_20200919_220331.jpg" />
-                    </div>
-                    <div class="col-xs-3 col-sm-3 col-md-3">
-                        <img class="size" src="../images/Seatingarea.jpg" />
-                    </div>
+                <div class="col-sm-5 col-md-4 " style="">
+                    <img src="../images/SonalChopra.jpg" alt="Sonal Chopra" style="margin:5%; border-radius: 100%; border: dotted; border-block: dimgray; width: 90%;">
                 </div>
             </div>
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
         </div>
+    </div>
+    <div id="demo" class="carousel slide" data-ride="carousel" style="padding-top: 5%; padding-bottom: 5%; background-color: floralwhite;">
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active" style="background-color:darkgreen"></li>
+            <li data-target="#demo" data-slide-to="1" style="background-color:darkgreen"></li>
+            <li data-target="#demo" data-slide-to="2" style="background-color:darkgreen"></li>
+        </ul>
+        <!-- The slideshow -->
+        <div class="container carousel-inner no-padding" style="margin: 10px 110px">
+            <div class="carousel-item active">
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <img class="size" src="../images/aromatherapy.jpg" style="height:200px; width:200px;" />
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <img class="size" src="../images/relax1.jpg" style="height:200px; width:200px;" />
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <img class="size" src="../images/facial.jpg" style="height:200px; width:200px;" />
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <img class="size" src="../images/massage.jpg" style="height:200px; width:200px;" /> 
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <img class="size" src="../images/hangingbowl.jpg" style="height:200px; width:200px;"/>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <img class="size" src="../images/medicine.jpg" style="height:200px; width:200px;"/>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <img class="size" src="../images/IMG_20200919_205119.jpg" style="height:200px; width:200px;"/>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <img class="size" src="../images/IMG_20200919_205639.jpg" style="height:200px; width:200px;"/>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <img class="size" src="../images/IMG_20200919_215540.jpg" style="height:200px; width:200px;"/>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <img class="size" src="../images/IMG_20200919_220233.jpg" style="height:200px; width:200px;"/>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <img class="size" src="../images/IMG_20200919_220331.jpg" style="height:200px; width:200px;"/>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <img class="size" src="../images/Seatingarea.jpg" style="height:200px; width:200px;"/>
+                </div>
+            </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon" style="background-color:darkgreen"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon" style="background-color:darkgreen"></span>
+        </a>
+    </div>
     </div>
     <%--https://docs.google.com/forms/d/e/1FAIpQLSdgbU-TcgCsCkpwzeOzgDYd6XngeNNvcI94c7-T02aFT1uYQw/viewform?vc=0&c=0&w=1&flr=0--%>
     <%--to check the response in excel sheet--%>

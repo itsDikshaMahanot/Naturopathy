@@ -1,25 +1,25 @@
-﻿.col-md-3 {
+﻿/*.col-md-3 {
     display: inline-block;
     margin-left: -4px;
-}
+}*/
+.size {
+    width: 200px;
+    height:200px;
+        }
 
-    .col-md-3 img {
-        width: 100%;
-        height: auto;
-    }
+/*body .carousel-indicators  li {
+   
+}*/
 
-body .carousel-indicators li {
-    background-color: red;
-}
-
-body .carousel-indicators {
+/*.carousel-indicators li {
     bottom: 0;
+    background-color: lightgreen;
 }
 
-body .carousel-control-prev-icon,
-body .carousel-control-next-icon {
-    background-color: red;
-}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: lightgrey;
+}*/
 
 body .no-padding {
     padding-left: 0;
@@ -28,7 +28,7 @@ body .no-padding {
    
 }
 
-img .size{
+/*img .size{
     width:900px;
     height:599px;
-}
+}*/

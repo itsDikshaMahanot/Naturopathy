@@ -139,6 +139,8 @@
     <Content Include="images\IMG_20200919_220233.jpg" />
     <Content Include="images\IMG_20200919_220331.jpg" />
     <Content Include="images\IMG_20200919_221705.jpg" />
+    <Content Include="images\mvv.png" />
+    <Content Include="images\mission-vision-values.png" />
     <Content Include="images\SonalChopra.jpg" />
     <Content Include="images\logo1.png" />
     <Content Include="images\magnetictherapy.jpg" />

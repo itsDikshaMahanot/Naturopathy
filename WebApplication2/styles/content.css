@@ -7,7 +7,7 @@
 
  .videocontent::before {
         content: "";
-        background-image: url('../images/rainbow.jpg');
+        background-image: url('../images/dbck.jpg');
         background-size: cover;
         position: absolute;
         top: 0px;
@@ -29,11 +29,9 @@
    
 }
 
-h1{
-    font-size:40% ;
-}
 
+.carousel-inner > .carousel-item > img{
+    height:4000px;
+    width:3000px;
 
-.embeded-responsive{
-    width:80%;
 }
