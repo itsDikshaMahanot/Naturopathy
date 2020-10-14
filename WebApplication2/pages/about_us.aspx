@@ -24,24 +24,46 @@
             height: auto;
             background-size: cover;
         }
+        .test2 {
+            border-radius: 10px;
+            color: white;
+            display: inline-block;
+            background-color: rgba(0,0,0,.55);
+            padding:2%;
+        }
+
+        .alink{
+            color: crimson ;
+            border-radius: 20px; 
+            padding-block:1.5%; 
+            padding-inline:3%; 
+            background-color:lightskyblue;
+            opacity:0.60;
+        }
+        .test3 {
+            background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.6);
+        }
+        .pcontainer {
+            padding: 10px 20px;
+        }
+        
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container col-md-12 col-sm-12" style="background-color: floralwhite; padding: 0.2%;">
-        <div class="row" style="max-height: 50%;">
-            <div class="videocontent" style="width: 100%; padding-left: 5%; padding-right: 5%;">
-                <div class="col-md-12 row">
-                    <div class="col-md-4" style="font-family: Britannic; padding: 1%; margin: 10% 3%; text-align: center; text-decoration: solid;">
-                        <p style="font-size: 290%">
-                            Welcome to<br />
-                            Naturopathy Center<br />
+    <div class="container col-md-12 col-sm-12" style="background-color: floralwhite; padding: 0.2%;">        
+            <div class="videocontent" style="width: 100%; padding-left: 5%; padding-right: 5%;">                          
+                    <div class="col-md-12" style=" margin: 5% 0%; text-align: center; text-decoration: solid;">
+                        <p style="font-size: 250%; font-family: 'Bookman Old Style';" class="test2">
+                            Welcome to
+                            Naturopathy Center               
                         </p>
-                        <a href="diet.aspx" style="font-size: 200%; color: darkgreen; opacity: 0.70; border: solid; border-radius: 45px; padding-block: 3%; padding-inline: 5%; border-color: black;">Go to Form</a>
                     </div>
-                    <iframe class="col-md-6" style="padding: 0%; align-items: center; border: 1px solid #000; -moz-border-radius: 15px; border-radius: 25px" src="../images/entrance.mp4"></iframe>
-                </div>
+                <div class="container" style="text-align:center; padding-bottom:4%;text-decoration: solid;">
+                        <%--<a  href="diet.aspx">PLAN A DIET</a>--%>
+                        <a class="alink" href="diet.aspx" style="font-size: 200%; font-family:cursive; ">Personalised Diet</a>
+                </div>    
             </div>
-        </div>
+        
         <%--        <div id="carouselExampleIndicators" class="carousel slide col-md-12 col-sm-12" data-ride="carousel" style="padding: 2%">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -90,10 +112,10 @@
                 <img src="../images/mvv.png" class="col-sm-5 col-md-4 " alt="MVV" style="background-color: #F8F8FF; border-radius: 20%; padding-block: 2%; padding-inline: 5%" />
                 <div class="col-sm-6 col-md-7 row" style="padding-left: 12%; padding-top: 4%;">
                     <h3 style="font-family: Broadway; color: deepskyblue">MISSION </h3>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                     <h3 style="font-family: Broadway; color: mediumvioletred">VISSION </h3>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    <h3 style="font-family: Broadway; color: yellowgreen">GOAL</h3>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <h3 style="font-family: Broadway; color: yellowgreen">VALUES</h3>
                     <p style="text-align: justify; font-size: medium;">
                         Our vision is to encourage people to follow a natural way of life and to help them activate their innate ability to fight diseases without drugs
                        ,so that they do not suffer from preventable diseases.
@@ -106,83 +128,38 @@
         </div>
     </div>
     <div id="header" style="padding-top: 5%">
-        <div class="col-md-12" style="width: 85%; margin-left:7%; border: solid; border-width: medium; border-color: chocolate; border-radius: 10%;">
+        <div class= "col-md-12" style="width: 85%; margin-left:7%;border: 2px solid #98FB98; -moz-border-radius: 15px; border-radius: 30px ; padding-block: 3%; padding-inline: 5%;">
             <div class="row" style="">
-                <div class="col-sm-6 col-md-7" style="margin-top: 4%">
-                    <h3 style="text-align: center; font-family:Algerian">Dr Sonal Chopra</h3>
-                    <p style="text-align: justify; font-size: 130%; padding-top: 2%; font-family:Century; padding-left:8%; padding-bottom:5%">
+                <div class=" card pcontainer col-md-7" style="box-shadow:-5px -5px darkgray; border-radius:35px">
+                    <h3 style="text-align: center; font-family:Algerian; padding-top:2%">Dr Sonal Chopra</h3>
+                    <p class="" style="text-align: justify; font-size: 130%; font-family:Century;padding-top: 2%;  padding-left:2%; padding-bottom:5%">
                         Dr. Sonal Chopra is a self-made well experienced naturopath, acupressurist and dietitian. She has an overall experience of 5 years.
                         Currently, she is managing a Naturopathy center in Jaipur city and also providing online perfect diet plan,
                         according to Vat, Pitta and Kapha of individual body.                   
                     </p>
                 </div>
-                <div class="col-sm-5 col-md-4 " style="">
-                    <img src="../images/SonalChopra.jpg" alt="Sonal Chopra" style="margin:5%; border-radius: 100%; border: dotted; border-block: dimgray; width: 90%;">
+                <div class="col-sm-10 col-md-4 " style="margin-top:1%; margin-left:8%;">
+                    <img src="../images/SonalChopra.jpg" alt="Sonal Chopra" style=" border-radius: 100%; border: dotted; border-block:dimgray; width: 100%;">
                 </div>
             </div>
         </div>
     </div>
-    <div id="demo" class="carousel slide" data-ride="carousel" style="padding-top: 5%; padding-bottom: 5%; background-color: floralwhite;">
-        <!-- Indicators -->
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active" style="background-color:darkgreen"></li>
-            <li data-target="#demo" data-slide-to="1" style="background-color:darkgreen"></li>
-            <li data-target="#demo" data-slide-to="2" style="background-color:darkgreen"></li>
-        </ul>
-        <!-- The slideshow -->
-        <div class="container carousel-inner no-padding" style="margin: 10px 110px">
-            <div class="carousel-item active">
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <img class="size" src="../images/aromatherapy.jpg" style="height:200px; width:200px;" />
-                </div>
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <img class="size" src="../images/relax1.jpg" style="height:200px; width:200px;" />
-                </div>
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <img class="size" src="../images/facial.jpg" style="height:200px; width:200px;" />
-                </div>
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <img class="size" src="../images/massage.jpg" style="height:200px; width:200px;" /> 
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <img class="size" src="../images/hangingbowl.jpg" style="height:200px; width:200px;"/>
-                </div>
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <img class="size" src="../images/medicine.jpg" style="height:200px; width:200px;"/>
-                </div>
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <img class="size" src="../images/IMG_20200919_205119.jpg" style="height:200px; width:200px;"/>
-                </div>
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <img class="size" src="../images/IMG_20200919_205639.jpg" style="height:200px; width:200px;"/>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <img class="size" src="../images/IMG_20200919_215540.jpg" style="height:200px; width:200px;"/>
-                </div>
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <img class="size" src="../images/IMG_20200919_220233.jpg" style="height:200px; width:200px;"/>
-                </div>
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <img class="size" src="../images/IMG_20200919_220331.jpg" style="height:200px; width:200px;"/>
-                </div>
-                <div class="col-xs-3 col-sm-3 col-md-3">
-                    <img class="size" src="../images/Seatingarea.jpg" style="height:200px; width:200px;"/>
-                </div>
-            </div>
-        </div>
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon" style="background-color:darkgreen"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon" style="background-color:darkgreen"></span>
-        </a>
-    </div>
-    </div>
+    <div id="demo" class="row"  style=" padding:5%; background-color: floralwhite;">        
+                <div class=" col-md-8 col-sm-7">
+                     <video class="" width="620" height="420" autoplay style="margin: 20px 50px;">
+                      <source src="../images/entrance.mp4" type="video/mp4">
+                      <source src="../images/entrance.ogg" type="video/ogg">
+                    </video>
+                 </div>
+                     <div class="col-md-4 card" style="margin:80px 0px;box-shadow: 4px 4px darkgray; text-align:match-parent; font-family:'Lucida Sans Typewriter'; font-size:larger">
+                        <p style="padding-top:5%; padding-left:15%"> 
+                         200+ Cured Paitents<br />
+                         50+ More technniques<br />
+                         best treatment facilities
+                        </p>
+                    </div>          
+     </div>
+
     <%--https://docs.google.com/forms/d/e/1FAIpQLSdgbU-TcgCsCkpwzeOzgDYd6XngeNNvcI94c7-T02aFT1uYQw/viewform?vc=0&c=0&w=1&flr=0--%>
     <%--to check the response in excel sheet--%>
 </asp:Content>

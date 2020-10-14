@@ -123,6 +123,7 @@
     <Content Include="images\aromatherapy.jpg" />
     <Content Include="images\background.jpeg" />
     <Content Include="images\blog-image4018.jpg" />
+    <Content Include="images\dark.jpg" />
     <Content Include="images\dbck.jpg" />
     <Content Include="images\diettherapy.jpeg" />
     <Content Include="images\entrance.mp4" />
@@ -139,6 +140,7 @@
     <Content Include="images\IMG_20200919_220233.jpg" />
     <Content Include="images\IMG_20200919_220331.jpg" />
     <Content Include="images\IMG_20200919_221705.jpg" />
+    <Content Include="images\medicinegreen.jpg" />
     <Content Include="images\mvv.png" />
     <Content Include="images\mission-vision-values.png" />
     <Content Include="images\SonalChopra.jpg" />

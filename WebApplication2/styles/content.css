@@ -17,6 +17,22 @@
         opacity: 0.75;       
     }
 
+.videocontent1 {
+    position: relative;
+    display: inline-block;
+}
+
+    .videocontent1::before {
+        content: "";
+        background-image: url('../images/dark.jpg');
+        background-size: cover;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.75;
+    }
 
 
 .pp
@@ -30,8 +46,4 @@
 }
 
 
-.carousel-inner > .carousel-item > img{
-    height:4000px;
-    width:3000px;
 
-}
