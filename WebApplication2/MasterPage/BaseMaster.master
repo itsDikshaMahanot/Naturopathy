@@ -76,7 +76,7 @@
                         </li>
                         &nbsp                     
                         <li class="nav-item">
-                            <asp:Button ID="Button3" runat="server" CssClass="btn btn-outline-light w3-round-large" Text="Form" OnClick="Button3_Click" />
+                            <asp:Button ID="Button3" runat="server" CssClass="btn btn-outline-light w3-round-large" Text="Gallery" OnClick="Button3_Click" />
                         </li>
                     </ul>
                 </div>
@@ -85,7 +85,7 @@
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
 
-        <div class="" style="padding-top: 0.4%">
+        <div class="footer" style="position:absolute; bottom:auto">
             <div class="badge-success navbar-light sticky-bottom" style="margin-bottom: 0; bottom: 0; position: sticky; background-color: darkgreen; padding-top: 1%">
                 <div class="col-md-12 col-sm-10 row" style="height: 50%; padding-left:1%; padding-right:1%">
                     <div class="col order-1">
@@ -102,13 +102,13 @@
                         <a class="fa fa-phone"><span>  +91 9571763035 </span></a><br />
                         <a class="fa fa-phone"><span>  +91 9024906293 </span></a><br />
                         <a class="fa fa-envelope"><span>  ayushmannaturopathycenter@gmail.com </span></a><br />
-                        <a class="fa fa-safari"><span>  ayushmannaturopathycenter@gmail.com </span></a>
+                        
                     </div>
                 </div>
                 <div class="col-12 col-md-12">
                     <div class="text-center order-last" style="padding-bottom:0.5%">                       
                         <a class="btn btn-light fa fa-facebook-square" href="http://www.facebook.com/profile.php?id=" style="font-size: xx-large;"></a>
-                        <a class="btn btn-light rounded fa fa-instagram" href="http://youtube.com/" style="font-size: xx-large;"></a>
+                        <a class="btn btn-light rounded fa fa-instagram" href="https://www.instagram.com/" style="font-size: xx-large;"></a>
                         <a class="btn btn-light fa fa-envelope" href="mailto:" style="font-size: xx-large;"></a>
                     </div>
                 </div>

@@ -134,8 +134,13 @@
     <Content Include="images\Hip-Bath.jpg" />
     <Content Include="images\Hot-Foot-Bath.gif" />
     <Content Include="images\images.jpg" />
+    <Content Include="images\IMG_20200818_160757%281%29.jpg" />
+    <Content Include="images\IMG_20200919_204010.jpg" />
+    <Content Include="images\IMG_20200919_204036.jpg" />
     <Content Include="images\IMG_20200919_205119.jpg" />
     <Content Include="images\IMG_20200919_205639.jpg" />
+    <Content Include="images\IMG_20200919_213113.jpg" />
+    <Content Include="images\IMG_20200919_215311.jpg" />
     <Content Include="images\IMG_20200919_215540.jpg" />
     <Content Include="images\IMG_20200919_220233.jpg" />
     <Content Include="images\IMG_20200919_220331.jpg" />
@@ -164,10 +169,12 @@
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="pages\about_us.aspx" />
     <Content Include="pages\diet.aspx" />
+    <Content Include="pages\gallery.aspx" />
     <Content Include="pages\services.aspx" />
     <Content Include="pages\WebForm1.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\counter.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
@@ -229,6 +236,13 @@
     </Compile>
     <Compile Include="pages\diet.aspx.designer.cs">
       <DependentUpon>diet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\gallery.aspx.cs">
+      <DependentUpon>gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\gallery.aspx.designer.cs">
+      <DependentUpon>gallery.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\services.aspx.cs">
       <DependentUpon>services.aspx</DependentUpon>

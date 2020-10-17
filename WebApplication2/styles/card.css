@@ -16,6 +16,7 @@
 .price {
     color: grey;
     font-size: 22px;
+    text-align:center;
 }
 
 .card button {
@@ -34,5 +35,9 @@
         opacity: 0.7;
     }
 
+    li{
+        text-align:center;
+        font-size:medium;
+    }
 
 

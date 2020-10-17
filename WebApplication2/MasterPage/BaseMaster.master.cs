@@ -27,7 +27,7 @@ namespace WebApplication2.MasterPage
 
         protected void Button3_Click(object sender, EventArgs e)
         {
-            Response.Redirect("https://docs.google.com/forms/d/e/1FAIpQLSdgbU-TcgCsCkpwzeOzgDYd6XngeNNvcI94c7-T02aFT1uYQw/viewform?vc=0&c=0&w=1&flr=0");
+            Response.Redirect("gallery.aspx");
         }
 
         protected void Button4_Click(object sender, EventArgs e)
